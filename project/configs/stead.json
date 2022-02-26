@@ -1,0 +1,12 @@
+{
+    "model": "MagNet",
+    "data": "STEAD",
+    "trainer_args": {
+      "gpus": 1,
+      "max_epochs": 100
+    },
+    "model_args": {
+      "drop_rate": 0.2,
+      "learning_rate": 1e-3
+    }
+  }

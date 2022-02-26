@@ -1,0 +1,14 @@
+data: STEAD
+drop_rate: 0.2
+hidden_dim: 128
+input_dim: !!python/tuple
+- 3
+- 6000
+learning_rate: 0.001
+model: MagNet
+model_args:
+  drop_rate: 0.2
+  learning_rate: 0.001
+trainer_args:
+  gpus: 1
+  max_epochs: 100
