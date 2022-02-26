@@ -18,3 +18,8 @@ python project/lit_magnet.py --config project/configs/stead.json --reshuffle tru
 ```
 Mousavi, S. M., & Beroza, G. C. (2019). A Machine‐Learning Approach for Earthquake Magnitude Estimation. Geophysical Research Letters.
 ```   
+
+### Result
+- Mse:  0.335884
+- Std:  0.446582
+![result](magnet_result.png)
